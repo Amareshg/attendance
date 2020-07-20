@@ -20,6 +20,7 @@
 	$name = $data3[0];
 	$rno = $data3[1];
 	$numbers = $data3[2];	
+	$a ="0";
 	
 	$Sql2 = "SELECT Total_classes,Classes_attend FROM `stu_attendance` WHERE Roll_no='$rno'";  
 	$Rec2 = mysql_query($Sql2);
