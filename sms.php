@@ -26,7 +26,6 @@
 	$data2 = mysql_fetch_row($Rec2);
 	$totclass = $data2[0];	
 	$classattend = $data2[1];	
-	$a = "0";
 	
 	$percent = ($classattend / $totclass)* 100;
 	
